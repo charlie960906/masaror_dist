@@ -1,0 +1,20 @@
+# robots.txt for https://hyjdevelop.com/
+
+# 允許所有爬蟲訪問
+User-agent: *
+
+# 允許爬取主要頁面
+Allow: /
+Allow: gallery
+Allow: /service
+Allow: /articles
+Allow: /help
+
+# 禁止爬取管理頁面
+Disallow: /admin
+
+# 禁止爬取靜態資源（可選）
+Disallow: /assets/
+
+# 指定網站地圖（如果有）
+Sitemap: https://marshall.hyjdevelop.com/sitemap.xml
